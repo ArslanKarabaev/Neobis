@@ -1,3 +1,5 @@
+package grenais.src;
+
 import java.util.ArrayList;
 import java.util.Scanner;
 
@@ -29,17 +31,21 @@ public class grenais {
                     vicInter++;
                 } else if (g.get(i) == g1.get(i)) {
                     draw++;
-                } else{vicGremio++;}
+                } else {
+                    vicGremio++;
+                }
             }
             System.out.println(grenais + " grenais" +
                     "\n" + "Inter:" + vicInter +
                     "\n" + "Gremio:" + vicGremio +
                     "\n" + "Empates:" + draw);
-            if(vicInter > vicGremio){
+            if (vicInter > vicGremio) {
                 System.out.println("Inter venceu mais");
-            }else if(vicInter < vicGremio){
+            } else if (vicInter < vicGremio) {
                 System.out.println("Gremio venceu mais");
-            }else{System.out.println("Não houve vencedor");}
+            } else {
+                System.out.println("Não houve vencedor");
+            }
         }
     }
 }

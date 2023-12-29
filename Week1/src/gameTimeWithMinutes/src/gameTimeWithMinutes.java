@@ -1,3 +1,5 @@
+package gameTimeWithMinutes.src;
+
 import java.util.Scanner;
 
 public class gameTimeWithMinutes {
@@ -10,7 +12,7 @@ public class gameTimeWithMinutes {
         m1 = scanner.nextInt();
         before = h * 60 + m;
         after = h1 * 60 + m1;
-        if(after > before){
+        if (after > before) {
             m = Math.abs(after - before);
             h = m / 60;
             m %= 60;
@@ -18,7 +20,7 @@ public class gameTimeWithMinutes {
             h = 24;
             m = 0;
         } else {
-            m =Math.abs(before - (after + 1440));
+            m = Math.abs(before - (after + 1440));
             h = m / 60;
             m %= 60;
         }
