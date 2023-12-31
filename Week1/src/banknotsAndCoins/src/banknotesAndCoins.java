@@ -1,3 +1,5 @@
+package banknotsAndCoins.src;
+
 import java.util.Scanner;
 
 public class banknotesAndCoins {
@@ -47,7 +49,7 @@ public class banknotesAndCoins {
                 "\n" + N3 + " moeda(s) de R$ 0.25" +
                 "\n" + N4 + " moeda(s) de R$ 0.10" +
                 "\n" + N5 + " moeda(s) de R$ 0.05" +
-                "\n" + (int)N6 + " moeda(s) de R$ 0.01"
+                "\n" + (int) N6 + " moeda(s) de R$ 0.01"
         );
     }
 }

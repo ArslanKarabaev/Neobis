@@ -1,3 +1,5 @@
+package populationIncrease.src;
+
 import java.util.Scanner;
 
 public class populationIncrease {
@@ -15,7 +17,7 @@ public class populationIncrease {
                 counter++;
                 PB = (int) ((int) Math.floor(PB) * (1 + (G2 / 100)));
             }
-            if(counter > 100) System.out.println("Mais de 1 seculo.");
+            if (counter > 100) System.out.println("Mais de 1 seculo.");
             else System.out.println(counter + " anos.");
         }
     }
